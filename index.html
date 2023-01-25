@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>ALUCRIPTO</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="imagenes/logokey.png" type="image/x-icon" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;900&family=Mukta:wght@300&family=Rowdies:wght@300&family=Rubik+Bubbles&display=swap");
+    </style>
+  </head>
+  <header>
+    <img src="imagenes/logoalura.png" alt="logo" class="logoAlura" />
+  </header>
+  <body>
+    <script src="prueba.js">
+    </script>
+    <main>
+      <section>
+        <div>
+          <textarea
+            id="mensaje"
+            cols="20"
+            rows="10"
+            placeholder="Escribe aqui tu mensaje"
+            class="mensajeEn"
+          ></textarea>
+        </div>
+        <div class="botones">
+          <button class="btn-encriptar" onclick="msjCifrado()">Encripta</button>
+          <button class="btn-desencriptar" onclick="msjRevelado()">Desencripta</button>
+        </div>
+      </section>
+        <section>
+          <div>
+            <textarea
+              id="respuesta"
+              cols="20"
+              rows="10"
+              placeholder="Aun no tiene mensajes a decifrar"
+              class="mensajeRev"
+            ></textarea>
+          </div>
+          <div>
+            <button class="copiar" onclick="copy()">Copiar Mensaje</button>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p class="copyright">&copy Javier Morales-Copyright-Alucripto - 2022</p>
+      </footer>
+    </body>
+  </html>
