@@ -99,14 +99,15 @@ main{
   border: none;
   border-radius: 3px;
   cursor: pointer;
+  cursor: pointer;
   transition: 0.5s, color 0.1s;
   -webkit-transition: 0.5s, color 0.1s;
   -moz-transition: 0.5s, color 0.1s;
 }
 .btn-desencriptar:hover {
-  transform: translatey(20px);
-  -webkit-transform: translatey(20px);
-  -moz-transform: translatey(20px);
+  transform: translatey(-20px);
+  -webkit-transform: translatey(-20px);
+  -moz-transform: translatey(-20px);
 }
 
 .copiar {
