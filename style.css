@@ -1,0 +1,153 @@
+* {
+  box-sizing: content-box;
+  width: 100%;
+  padding: 10px;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 100%;
+  background-image: url(imagenes/fondo.jpeg)
+}
+
+.logoAlura {
+  padding-top: 10px;
+  margin-left: 10px;
+  width: 1%;
+  background: none;
+}
+
+main{
+  display: flex;
+  max-width: 800px;
+  width: 90%;
+  margin: auto;
+  padding: 40px;
+
+}
+/*estilos de textarea*/
+.contenedor2{
+  border: none;
+  background: transparent;
+}
+.mensajeEn {
+  border: none;
+  padding: 10px 0 0;
+  margin-top: 90px;
+  margin-left: 10px;
+  color: #3570b8;
+  width: 50%;
+  resize: none;
+}
+
+::placeholder {
+  color: #0a3871;
+}
+.mensajeEn:focus {
+  outline: none;
+}
+
+.mensajeRev {
+  border: none;
+  background: none;
+  padding: 10px 0 0;
+  margin-top: 90px;
+  margin-left: 40px;
+  color: #0a3871;
+  resize: none;
+  width: 50%;
+}
+.mensajeRev:focus {
+  outline: none;
+}
+
+
+/*estilos de botones*/
+.botones {
+  display: flex;
+  align-items: center;
+  margin-top: 140px;
+  position: relative;
+}
+
+.btn-encriptar {
+  height: 30px;
+  width: 40%;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding-left: 10px;
+
+  cursor: pointer;
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+.btn-encriptar:hover {
+  transform: translatey(-20px);
+  -webkit-transform: translatey(-20px);
+  -moz-transform: translatey(-20px);
+}
+
+.btn-desencriptar {
+  height: 30px;
+  width: 40%;
+  margin-right: 40px;
+  margin-left: 40px;
+  background: black;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+.btn-desencriptar:hover {
+  transform: translatey(20px);
+  -webkit-transform: translatey(20px);
+  -moz-transform: translatey(20px);
+}
+
+.copiar {
+  width: 40%;
+  height: 30px;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  margin-left: 120px;
+  margin-top: 130px;
+  padding: 10px 0 24px;
+  background: #d90429;
+  transition: .5s, color .10s;
+  -webkit-transition: .5s, color .10s;
+  -moz-transition: .5s, color .10s;
+
+  }
+
+
+.copiar:hover{
+  box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+  transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+  -moz-transform:translate(0px,5px);
+}
+
+
+
+.copyright {
+  text-align: center;
+  color: #012;
+  font-size: 12px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .mensajeEn .mensajeRev {
+    text-align: center;
+  }
+}
